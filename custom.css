@@ -1,0 +1,35 @@
+.code {
+	width: 90%;
+	display: block;
+	overflow-x: scroll;
+	height: 50px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	align-items: center;
+	flex-direction:row;
+	background: #e6e6e6;
+	margin: 15px auto;
+	border-radius: 10px 10px 0 0;
+	font-family:Consolas,  sans-serif;
+	padding: 5px 10px;
+}
+.text-left {
+	text-align: left !important;
+}
+.btn-modify {
+	height: 50px;
+	display: -webkit-inline-flex;
+	display: -moz-inline-flex;
+	display: -ms-inline-flex;
+	display: -o-inline-flex;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+}
+.card-footer {
+	margin: 0px;
+	height: 60px;
+}
